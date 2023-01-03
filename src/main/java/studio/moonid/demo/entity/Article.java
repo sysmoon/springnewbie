@@ -17,22 +17,14 @@ public class Article {
     @Column
     private String content;
 
-    public Article() {
-
-    }
-
-    public void setId(Long id) {
-        this.id = id;
-    }
-
-    public Long getId() {
-        return id;
-    }
-
     public Article(Long id, String title, String content) {
         this.id = id;
         this.title = title;
         this.content = content;
+    }
+
+    public Article() {
+
     }
 
     @Override
