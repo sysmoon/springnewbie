@@ -8,8 +8,6 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 
 @SpringBootApplication
-//@EntityScan(basePackages = {"studio.moonid.demo.entity"})
-//@EnableJpaRepositories(basePackages = "studio.moonid.demo.repository")
 public class DemoApplication {
     private static ApplicationContext applicationContext;
 

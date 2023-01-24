@@ -1,0 +1,28 @@
+= Todo API
+notification-api-docs
+:doctype: book
+:icons: font
+:source-highlighter: highlightjs
+:toc: left
+:toclevels: 4
+:sectlinks:
+
+ifndef::snippets[]
+:snippets: ./build/generated-snippets
+endif::[]
+
+== CommBiz API
+
+=== Article 생성
+
+==== Request Sample
+include::{snippets}/show/http-request.adoc[]
+
+==== Request Parameters
+include::{snippets}/show/path-parameters.adoc[]
+
+==== Response Sample
+include::{snippets}/show/http-response.adoc[]
+
+==== Response Fields
+include::{snippets}/show/response-fields.adoc[]
